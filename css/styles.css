@@ -1,0 +1,101 @@
+/* Main color #4D5AE5 */
+/* Secondary color #2E2F42*/
+/* White color #FFFFFF */
+/* Accent #E7E9FC*/
+/* Secondary background color #F4F4FD*/
+
+:root {
+    --primary-brand-color: #4D5AE5;
+    --tittle-text-color: #2E2F42;
+    --description-text-color: #434455;
+    --background-light-color: #F4F4FD;
+}
+
+.body {
+ background-color: #E5E5E5;
+ color: var(--tittle-text-color);
+ font-family: "Roboto", sans-serif;
+ font-size: 18px;
+ line-height: 1.2;
+}
+
+/* Logo */
+
+.nav-logo {
+    color: var(--tittle-text-color);
+    font-size: 18px;
+    line-height: 24px;
+}
+.logo {
+    color: var(--primary-brand-color); 
+    font-size: 18px ;
+    line-height: 24px;
+    letter-spacing: 3%
+}
+
+/* List */
+
+.list {
+    list-style-type: none;
+}
+.list-link {
+    color:var(--tittle-text-color);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+.list-link:hover,
+.list-link:focus {
+    color:var(--primary-brand-color);
+}
+
+/* Contacts */
+
+.contacts-link {
+    color: var(--description-text-color);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--primary-brand-color);
+}
+
+/* Filter */
+.filter-button {
+    color: var(--primary-brand-color);
+    cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: #FFFFFF;
+    background-color: var(--primary-brand-color);
+}
+
+/*  Studio Button */
+.banner-button {
+    color: var(--primary-brand-color);
+}
+
+.banner-button:hover,
+.banner-button:focus {
+    color: #FFFFFF;
+    background-color: var(--primary-brand-color);
+}
+
+/* Title */
+.post-title {
+    color: var(--tittle-text-color);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.post-text {
+    color: var(--description-text-color);
+    font-size: 16px;
+    line-height: 24px;
+}
